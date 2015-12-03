@@ -1,0 +1,58 @@
+.odd .odd, .even .even {
+    color: #fff;
+    background-color: black;
+    border : 1px solid white;
+}
+.even .odd, .odd .even {
+    background-color: white;
+    border : 1px solid black;
+}
+td {
+    height: 50px;
+    width: 52px;
+    cursor: pointer;
+}
+.middle {
+    margin : 0 auto;
+}
+.width320 {
+    width : 350px;
+}
+.width450 {
+    width : 450px;
+}
+.circle {
+    background: mediumblue;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: table;
+    margin: 0 auto;
+}
+.queen {
+    background-image:url("http://www.expert-chess-strategies.com/images/queen.gif");
+    width: 40px;
+    height: 40px;
+    display: table;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+.buttons {
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+}
+.border {
+    border : 2px solid black;
+}
+
+#btn3
+{
+    width : 130px!important;
+}
+.footer
+{
+	position: absolute;
+	bottom : 10px;
+	right : 10px;
+}
